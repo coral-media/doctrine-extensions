@@ -1,0 +1,28 @@
+{
+    "name": "coral-media/doctrine-extensions",
+    "description": "Component to extend default doctrine features and behavior",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rafael Ernesto Espinosa Santiesteban <@rernesto>",
+            "email": "rernesto.espinosa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CoralMedia\\Component\\Doctrine\\Extensions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CoralMedia\\Component\\Doctrine\\Extensions\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "doctrine/doctrine-bundle": "^2.5"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.3"
+    }
+}
