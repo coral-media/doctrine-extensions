@@ -1,7 +1,7 @@
 {
     "name": "coral-media/doctrine-extensions",
     "description": "Component to extend default doctrine features and behavior",
-    "license": "proprietary",
+    "license": "MIT",
     "version": "0.1.0",
     "authors": [
         {
